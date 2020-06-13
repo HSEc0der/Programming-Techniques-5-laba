@@ -87,15 +87,12 @@ using namespace std;
     {   
         setlocale(LC_ALL, "Russian");
         //что заказано
-        /*vector<Food*> v;
+        vector<Food*> v;
         v.push_back(Food::repeatOrder(Dish_Food));
         v.push_back(Food::repeatOrder(Drink_Food));
         
         for (int i = 0; i < v.size(); i++)
             v[i]->info();
 
-        cout << "Число прототипов: " << getRegistry().size() << "\n";*/
-        map<int, int> mapp;
-        mapp[2] = 3;
-        cout << mapp.size();
+        cout << "Число прототипов: " << getRegistry().size() << "\n";
     }
